@@ -20,6 +20,7 @@ public class TankAi : MonoBehaviour {
     private float distanceFromTarget;
     private Transform[] waypoints = null;
 
+	//startの前に呼ばれる関数
     private void Awake() {
         player = GameObject.FindWithTag("Player");
         animator = gameObject.GetComponent<Animator>();
@@ -34,6 +35,7 @@ public class TankAi : MonoBehaviour {
         navMeshAgent.SetDestination(waypoints[currentTarget].position);
     }
 
+	//updateとは違い固定のインターバルで呼ばれる。defaultでは0.02秒(50fps)
     private void FixedUpdate() {
         //First we check distance from the player 
         currentDistance = Vector3.Distance(player.transform.position, transform.position);
