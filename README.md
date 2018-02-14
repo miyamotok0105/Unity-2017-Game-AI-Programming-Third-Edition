@@ -13,7 +13,18 @@ Following is the software list:
 | 02-08         | Unity 2017.x 
 |               | Visual Studio
 
-              
+# 初心者向けに
+
+Unityを開くときはAssetフォルダをopenしてください。Unityがフォルダ以下のファイルを読み込んでVisual Studio用のpjectファイルやslnファイルなど必要なものを自動生成します。
+
+
+# ch02
+
+FSMと簡単なUnityの作成について
+FSM...有限状態機械(Finite State Machine)。ゲームでよく使われるデザインパターン。ゲームの進行、キャラの振る舞いを管理。状態ごとに行動を設定する。
+
+
+
 
 
 ## Related Products
