@@ -18,13 +18,56 @@ Following is the software list:
 Unityを開くときはAssetフォルダをopenしてください。Unityがフォルダ以下のファイルを読み込んでVisual Studio用のpjectファイルやslnファイルなど必要なものを自動生成します。
 
 
-# ch02
+
+## ch02:
 
 FSMと簡単なUnityの作成について
 FSM...有限状態機械(Finite State Machine)。ゲームでよく使われるデザインパターン。ゲームの進行、キャラの振る舞いを管理。状態ごとに行動を設定する。
 
+## ch03:
+
+agentをもう少し複雑な世界に適応する為にセンサー機能を入れる。    
+センサーシステムは意思決定システムの一部です。    
+
+## ch04:
+
+有名なpathfinding algorithmsを適応したい。    
+AI agentに近づける為にever-popular A* pathfinding algorithmを適応する。    
+
+## ch05:
+
+flocking behavior systemについて    
+
+## ch06:
+
+Behavior Tree patternについて    
+
+## ch07:
+
+fuzzy logic
+
+## ch08:統合する
 
 
+
+
+
+## words
+
+NavMesh system    
+...Unityのナビゲーションシステム    
+complex behavior patterns    
+...?
+RTS game
+...リアルタイムストラテジー（Real-time Strategy、RTS）。    
+A* Pathfinding
+...A*アルゴリズムが使われた経路探索。
+Dijkstra's algorithm    
+...辺の重みが非負の場合の単一始点最短経路問題を解く経路探索    
+
+## UniRxへの書き換え
+
+Updateメソッドに全てを詰め込むスタイルからの脱却。
 
 
 ## Related Products
