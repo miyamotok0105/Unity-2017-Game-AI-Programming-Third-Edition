@@ -36,15 +36,18 @@ AI agentに近づける為にever-popular A* pathfinding algorithmを適応す�
 
 ## ch05:
 
-flocking behavior systemについて    
+flocking behavior system。    
+フロッキングは群れの行動を再現できる。    
 
 ## ch06:
 
-Behavior Tree patternについて    
+Behavior Tree pattern。    
+振る舞いの一連の流れをツリー構造に定義して実行する。    
 
 ## ch07:
 
-fuzzy logic
+fuzzy logic。    
+0,1の表現だけでなく、曖昧な表現まで扱う。    
 
 ## ch08:統合する
 
